@@ -1,4 +1,4 @@
-![WideImg](http://fictizia.com/img/github/Fictizia-plan-estudios-github.jpg)
+![WideImg](https://github.com/txesus/cursojsliquid/blob/master/header.jpg)
 
 
 **Curso Javascript Avanzado**
