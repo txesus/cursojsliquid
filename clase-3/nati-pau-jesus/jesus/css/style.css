@@ -1,0 +1,50 @@
+ul{
+    list-style: none;
+    margin-top: 20px;    
+    padding-left: 0;
+}
+ul li{
+    margin-bottom: 10px;
+    padding: 10px 0 10px 5px;
+}
+ul li img{
+    height: 70px;
+    left: 0;
+    position: relative;  
+    transition: all 1s ease-in-out;      
+}
+ul li:nth-child(1){
+    background: rgba(0,0,0,.075);
+}
+ul li:nth-child(2){
+    background: #dff0d8;
+}
+ul li:nth-child(3){
+    background: #fcf8e3;
+}
+ul li:nth-child(4){
+    background: #f2dede;
+}
+
+
+
+label{
+    display: inline-block;
+    width: 100%;
+}
+
+
+.progress-bar{
+    height: 50px;
+    transition: all 1s ease-in-out;
+}
+
+.button-wadus{
+    margin: 20px 20px 40px 20px;
+    text-align: center;    
+    width: 100%;
+}
+
+.table-wadus{
+    /* display: none; */
+}
