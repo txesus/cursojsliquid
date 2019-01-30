@@ -5,3 +5,4 @@
 
 - [UML Online](https://online.visual-paradigm.com/es/features/uml-tool/?gclid=EAIaIQobChMIloa8ybKQ4AIVmoKyCh0Kiwp7EAAYASAAEgIKMPD_BwE)
 - [HTML5 Apis](https://www.digitallearning.es/blog/javascript-api-html5/)
+- [ES6 Katas](http://es6katas.org/)
