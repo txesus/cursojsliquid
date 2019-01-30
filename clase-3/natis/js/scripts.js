@@ -1,5 +1,8 @@
 // Empty JS for your own code to be here
 function Carrera( bananas, firer ) {
+	var self = this;
+
+
 	this.numRunners = 3;
 
 	this.getMaxWidth = function( distance, randoms, winner ) {
@@ -12,7 +15,7 @@ function Carrera( bananas, firer ) {
 	this.movement = function( randoms, winner ) {
 		var mochilos 	= {};
 		var moved 		= {};
-		for (var i = 1; i < this.numRunners+1; i++) {
+		for (var i = 1; i < self.numRunners+1; i++) {
 			mochilos[bananas+i] = document.getElementById(bananas+i);
 			moved['left'+i] = 0;
 		}
@@ -30,7 +33,7 @@ function Carrera( bananas, firer ) {
 	    }
 	    else
 	    {
-	    	for (var i = 1; i < this.numRunners+1; i++) {
+	    	for (var i = 1; i < self.numRunners+1; i++) {
 					moved['left'+i] += randoms[(i-1)];
 					mochilos[bananas+i].style.left = moved['left'+i] + 'px';
 				}
@@ -42,7 +45,7 @@ function Carrera( bananas, firer ) {
 		var randoms = [];
 		var winner 	= 0;
 		var max 		= 0;
-		while(randoms.length < this.numRunners){
+		while(randoms.length < self.numRunners){
 	    var r 		= Math.floor(Math.random()*20) + 1;	    
 	    if(randoms.indexOf(r) === -1)
 	    {
@@ -53,22 +56,26 @@ function Carrera( bananas, firer ) {
 		winner = randoms.indexOf(max) + 1;
 
 		return { 'randoms': randoms, 'winner': winner };
-	}
+	};
 	
 
 	this.empezar = function() {
-		this.numRunners = document.querySelectorAll('#platanero .banana').length;
+		self.numRunners = document.querySelectorAll('#platanero .banana').length;
 
-    for (var i = 1; i < this.numRunners+1; i++) {
+    for (var i = 1; i < self.numRunners+1; i++) {
 			document.getElementById(bananas+i).style.left = '0px';
 		}	
 		
-		var runners = this.getRandoms();
+		var runners = self.getRandoms();
 
-		this.movement( runners.randoms, runners.winner );				
+		self.movement( runners.randoms, runners.winner );				
 	};
 
-	document.getElementById(firer).addEventListener('click', this.empezar);
+	document.getElementById(firer).addEventListener('click', self.empezar);
 }
 
-var MiCarrera = new Carrera('banana', 'boton');
+//var MiCarrera = new Carrera('banana', 'boton');
+
+window.addEventListener('load', function() {
+	var MiCarrera = new Carrera('banana', 'boton');		
+});
