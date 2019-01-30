@@ -1,0 +1,1 @@
+worker.postMessage('Hello World');
