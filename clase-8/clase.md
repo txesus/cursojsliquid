@@ -30,8 +30,9 @@
 2. **NPM**
     - Node package Manager
     Es un gestor de paquetes de NODE
+    - [package.json](https://nodesource.com/blog/the-basics-of-package-json-in-node-js-and-npm/)
+    - [SEMVER - Semantic Version](https://nodesource.com/blog/semver-a-primer/)
 
 3. **GULP**
-    - 
-
+    - [GULP](https://frontendlabs.io/1669--gulp-js-en-espanol-tutorial-basico-primeros-pasos-y-ejemplos)
 
