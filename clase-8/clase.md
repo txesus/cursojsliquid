@@ -6,7 +6,7 @@
     - Node version manager:
      Es un gestor de versiones de NODE, con el que podemos cambiar nuestra versión a nuestro antojo.
 
-    
+
      ```language
     Usage:
     nvm help                    Show this message
@@ -25,20 +25,11 @@
     nvm unalias <name>          Deletes the alias named <name>
     nvm copy-packages <version> Install global NPM packages contained in <version> to current version
     nvm unload                  Unload NVM from shell
-
-Example:
-    nvm install v0.10.24        Install a specific version number
-    nvm use 0.10                Use the latest available 0.10.x release
-    nvm run 0.10.24 myApp.js    Run myApp.js using node v0.10.24
-    nvm alias default 0.10.24   Set default node version on a shell
-
-Note:
-    to remove, delete or uninstall nvm - just remove ~/.nvm, ~/.npm and ~/.bower folders
-     
      ```
 
 2. **NPM**
-    - 
+    - Node package Manager
+    Es un gestor de paquetes de NODE
 
 3. **GULP**
     - 

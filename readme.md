@@ -10,7 +10,7 @@
 - [Clase 5 -- Api HTML / Ejercicio](https://github.com/txesus/cursojsliquid/tree/master/clase-5)
 - [Clase 6 -- Katas JS](https://github.com/txesus/cursojsliquid/tree/master/clase-6)
 - [Clase 7 -- NODE](https://github.com/txesus/cursojsliquid/tree/master/clase-7)
-- [Clase 8 -- NODE](https://github.com/txesus/cursojsliquid/tree/master/clase-8)
+- [Clase 8 -- NVM - NPM - GULP](https://github.com/txesus/cursojsliquid/tree/master/clase-8)
 
 
 
