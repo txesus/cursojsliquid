@@ -4,8 +4,11 @@
 
 1. **NVM**
     - Node version manager:
-    Es un gestor de versiones de NODE, con el que podemos cambiar nuestra versión a nuestro antojo.
-     `Usage:
+     Es un gestor de versiones de NODE, con el que podemos cambiar nuestra versión a nuestro antojo.
+
+    
+     ```language
+    Usage:
     nvm help                    Show this message
     nvm --version               Print out the latest released version of nvm
     nvm install [-s] <version>  Download and install a <version>, [-s] from source. Uses .nvmrc if available
@@ -31,8 +34,8 @@ Example:
 
 Note:
     to remove, delete or uninstall nvm - just remove ~/.nvm, ~/.npm and ~/.bower folders
-
-you@yourcomputer:~$ `
+     
+     ```
 
 2. **NPM**
     - 
