@@ -1,9 +1,9 @@
 #Clase 7
 
-> ECMA6 
+> NODE
 
-1. **ECMA6**
-    Variables internas (let)
+1. **NODE**
+    Node es un una máquina virtual, que podemos usar como servidor
     - 
 
 

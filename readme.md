@@ -8,6 +8,8 @@
 - [Clase 3 -- Api HTML / Ejercicio](https://github.com/txesus/cursojsliquid/tree/master/clase-3)
 - [Clase 4 -- Api HTML / Ejercicio](https://github.com/txesus/cursojsliquid/tree/master/clase4)
 - [Clase 5 -- Api HTML / Ejercicio](https://github.com/txesus/cursojsliquid/tree/master/clase5)
+- [Clase 6 -- Katas JS](https://github.com/txesus/cursojsliquid/tree/master/clase6)
+- [Clase 7 -- NODE](https://github.com/txesus/cursojsliquid/tree/master/clase7)
 
 
 
