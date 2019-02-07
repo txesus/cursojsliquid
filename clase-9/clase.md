@@ -14,10 +14,11 @@
     **Framework de Testing:**
     - Mocha: Es un framework que me permite realizar pruebas unitarias en JS. Se instala por NPM de manera local en el proyecto.
 
-     `describe("wadus", function() {`
-        `it("recibe 2 params", function(callback) {`
-            `wadus`
-        `});`
-     `});`
+     ```language
+        describe("wadus", function() {
+            it("recibe 2 params", function(callback) {
+                // Test code
+            });
+        });     
+     ```
 
-     
