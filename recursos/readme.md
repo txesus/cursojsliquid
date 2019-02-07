@@ -13,3 +13,4 @@
 - [GULP](https://frontendlabs.io/1669--gulp-js-en-espanol-tutorial-basico-primeros-pasos-y-ejemplos)
 - [REGEX101](https://regex101.com/)
 - [REGEX R](https://regexr.com/)
+- [Testing práctico con JavaScript](https://www.youtube.com/watch?v=DCPpDw_HfgI)
