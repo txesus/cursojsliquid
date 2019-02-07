@@ -11,6 +11,7 @@
 - [package.json](https://nodesource.com/blog/the-basics-of-package-json-in-node-js-and-npm/)
 - [SEMVER - Semantic Version](https://nodesource.com/blog/semver-a-primer/)
 - [GULP](https://frontendlabs.io/1669--gulp-js-en-espanol-tutorial-basico-primeros-pasos-y-ejemplos)
+- [Expresiones Regulares](https://developer.mozilla.org/es/docs/Web/JavaScript/Guide/Regular_Expressions)
 - [REGEX101](https://regex101.com/)
 - [REGEX R](https://regexr.com/)
 - [Testing práctico con JavaScript](https://www.youtube.com/watch?v=DCPpDw_HfgI)
