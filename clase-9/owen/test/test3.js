@@ -6,7 +6,7 @@ var result;
 var assert = require('assert');
 describe('Array', function() {
   describe('#test()', function() {
-    it('should return true if DNI is correct', function() {
+    it('should return true if Password is correct', function() {
         var testeo = true;
         for (var i = 0; i < array.length; i++) {
             result = re.test(String(array[i]).toLowerCase());
